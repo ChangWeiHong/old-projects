@@ -1,0 +1,117 @@
+
+.bg-custom-1{
+  color: rgb(197,51,67);
+  color: #c53343;
+}
+.style-background-default{
+background:  rgb(197,51,67);
+}
+
+.style-background-1{
+ background: rgb(197,51,67);
+background: -moz-linear-gradient(45deg, rgba(197,51,67,1) 0%, rgba(197,51,67,1) 0%, rgba(197,51,67,1) 100%, rgba(197,51,67,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(197,51,67,1) 0%, rgba(197,51,67,1) 0%, rgba(197,51,67,1) 100%, rgba(197,51,67,1) 100%);
+background: linear-gradient(45deg, rgba(197,51,67,1) 0%, rgba(197,51,67,1) 0%, rgba(197,51,67,1) 100%, rgba(197,51,67,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c53343",endColorstr="#c53343",GradientType=1);
+}
+
+.section-1{
+  height: 70px;
+}
+.section-1 p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.style-background-2{
+background: rgb(0,0,0);
+background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(197,51,67,1) 100%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(197,51,67,1) 100%, rgba(0,0,0,1) 100%);
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(197,51,67,1) 100%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+
+.text-moving {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin-left: -225px;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
